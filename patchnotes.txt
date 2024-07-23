@@ -5,7 +5,7 @@ MangoPlus Patch 1.7
 -Fixed Aether gloves rendering incorrectly.
 -Fixed other miscellaneous rendering bugs with certain armors.
 -Added Reload Audio Driver. Did your sound cut out? Press F3 + R to fix it.
--Added more items to the list of repairables in the Aether alter.
+-Added more items to the list of repairables in the Aether enchanter.
 -Fixed Millenaire village generation.
 -Removed Immersive Engineering machines from JEI recipes.
 -Removed Quark pipes.
