@@ -14,4 +14,5 @@ MangoPlus Patch 1.7
 -Removed long fall boots in favor of sentry boots.
 -Added cloud boots, crafted with sentry and agility boots.
 -Added discord button to main menu.
--Added patch notes screen. Access it by clicking the version number in the top left of the main menu!
+-Added patch notes screen. Access it by clicking the version number in the top left of the main menu! (must have internet to view)
+-Added prompt to update pack when a new version is available.
