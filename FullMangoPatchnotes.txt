@@ -1,0 +1,196 @@
+MangoPlus Patch 1.0.1
+
+-Fixed certain mobs not spawning
+
+MangoPlus Patch 1.1
+
+-Added millenaire mod
+-Added more rail types
+-Fixed ore gen for peridot, ruby, and sapphire
+-Added ore gen to the nether. Iron and diamonds are intentionally not included in nether ore gen
+-Added chisel mod
+-Removed stoneium from new chunks
+-Halved the damage for all axes
+-Added treecapitator for all axes above iron tier
+-Made aqua creepers more rare
+
+MangoPlus Patch 1.1.1
+
+Sorry, youll have to redo your custom settings
+
+-Removed mace (and some other weapons)
+-Fixed aether axe damage not being balanced for classic combat
+-Fixed sounds for chests, zombie pigman, main menu music, and other stuff
+-Slightly buffed zombie pigman with 0.2 knockback resistence
+
+MangoPlus Patch 1.1.2
+
+-Fixed bwm hand crank
+-Fixed aether axes (again)
+-Nerfed blunderbuss damage
+-Zombies have a little higher chance to spawn with weapons (will revert when maces are re-added)
+-Increased bwm windmill power conversion to 2.0
+-Treecapitator will no longer cause extra tool damage per block
+-Patch 1.1.1 made butterflies sound like muscular men. Will not fix, it's funny
+
+MangoPlus Patch 1.2
+
+-Updated the Aether with 3 new content mods
+-Disabled jetpacks in the Aether bc the atmosphere is too thin
+	Real reason for change is because of how valuable the new loot is. The aether is the only place to get shields, effectively sprint, obtain stackable food, ect. 
+	This change will provide more value to moas, dungeon loot, ect. Late game items such as gravisuits will still work.
+-Ambrosium stack size increased to 64, making it the only (offically) stackable food item
+-White apples stack size increased to 4 (they dont give health but they do clear bad effects)
+-You can no longer obtain or place pink aerclouds
+-Undead Feathers are finally stackable!
+-Aqua creeper spawnrate reduced again
+-Increased bwm windmill power conversion to 110.0
+-Treecapitator will once again cause a little tool damage
+-Removed zanite axe from treecapitator tool list
+-Added inventory sorting mod
+-Added in game screenshot manager
+-Redpower logic sounds disabled. No more noisy timers!
+-Reduced file size bloat related to sounds
+
+MangoPlus Patch 1.3
+
+-Added Thermal Expansion!
+-Thermal changes:
+	Thermal machines are powered by MJ, not RF
+	Lead and nickel only generate in the nether
+	Platinum only generates in the end
+	Added some sulfur recipes for easier factory making
+	Removed gear diecast
+	Removed armors
+	Removed tools
+	Removed thermal energy storage and transport, n/a to MJ
+-Removed aether shield recipes, can now only be found in aether dungeons
+-Added Recipe Confict Fixer button
+A world backup has been made while thermal integration is tested
+
+MangoPlus Patch 1.4
+
+-Balanced energy coversion rates thoroughly
+	2MJ=20RF=5EU, FLUXGEN 5EU->15RF
+	Fluxgen is less efficient than a bridge bc its cheaper
+	Forestry machines now use MJ instead of RF
+-Added Railcraft. Main features include;
+	New rails, multiblock fluid tanks, chunk loaders, steel and more!
+-Added Energy Meters! No more guessing how much power you have
+-Added sword blocking
+-Unified all materials! No more duplicate stuff, nicer recipe gui, cleaner inventory
+-Added Inventory Tweaks to replace bogo sorter
+-Some gears now require iron. Does not apply to wood, stone, iron, gold, or diamond
+-Liquid glowstone no longer gives effects
+
+MangoPlus Patch 1.4.1
+
+Oops, everything was messed up!
+
+-Fixed ghost blocks
+-Fixed insta-mining
+-Fixed block lag that occurred specifically when looking down for no reason
+-Fixed a bug where using a pickaxe on pipes and wires made them dissapear but not break
+-Fixed nuclear reactor GUI texture. Stats still dont work in the gui but energy meters & computers could be used
+-Fixed Treecapitator for real this time
+-Made Railcraft steel the default
+-Added BetterWithMods to oredict
+-Downgraded Valkyrien Skies version for performance. Will definitely break some old stuff
+-Reverted linear knockback change back to chance
+-Removed Better Railroads. Redundant with Railcraft
+-Changed main menu to display the MangoPlus patch instead of the minecraft version
+-Added steel anvil as end-ish game recipe
+
+MangoPlus Patch 1.5
+
+-Armor has been completely reworked. See details below
+-"Nightmares" from older versions have been re-added. Mobs will spawn next to your bed and wake you up if you either sleep out in the open, or in an unlit area
+-Maces have been re-added. Gold mace damage increased, all others reduced. Some are better and some are worse than their sword counterparts.
+-Damage reduction from sword block increased from 10% to 25%
+-Added clay shingles
+-Added framed glass
+-Added more brick variants
+-Added trapdoors for all wood types
+-Added arms to armor stands
+-Added glass shards
+-Removed sprayer upgrade
+-Changed stair recipe to give 8 instead of 4
+-You can now dye item names and their enchantment glint
+-Added archaeologist rarely in new chunks. His hat will now give an extra fortune level!
+-Added 2 new mobs. They're rare, and only spawn under y=20
+-Haste and Resistance potions can now be brewed to replace higher tiers of efficiency and help with armor changes
+-Added Matrix enchanting
+-Enchantment changes:
+	Some enchantments have had their max level lowered to incentivize upgrades and/or tool specialization, such as drills, silk touch ore extraction, etc..
+	Efficiency 5 -> 3
+	Fortune 3 -> 2
+		Fortune 3 can be obtained with a drill upgrade, silk touch can also be effective in increasing ore yield
+	Power 5 -> 3
+		Different arrow and bow types can be used
+	Knockback 2 -> 1
+	Protection 4 -> 3
+		Other protection enchants are unchanged. Gives a real use them.
+	Infinity has been disabled due to how strong bows are in general
+-Armor changes:
+	Armor effectiveness is adjusted so that the more armor you have, the less every extra armor point adds to your total protection. 
+	Due to how meaninglessly complicated armor toughness is, it has been removed as a direct mechanic. 
+	Armor has been rebalanced.
+	Protection enchantments have been similarly nerfed to ~75% max. 
+	Instead of toughness acting directly on arbitrary armor damage reduction, an extra layer of calculations have been added, which greatly decreases any damage over 40 points according to your armor toughness.
+	Armor degrades like how it did in beta. Low durability decreases the attributes of that specific piece of armor, so a half-broken helmet will drop your armor less than a half-broken chestplate. 
+	This will incentivize the use of armor repair systems such as the aether enchanter.
+	Armor stat curves are linear.
+	Please note that all changes can be hot fixed at any time, and feedback (after testing in real gameplay) will be accepted.
+
+MangoPlus Patch 1.5.1
+
+-Added Portal Guns!
+-Aqua Creepers will now only spawn during a thunderstorm
+-More Enchantment changes:
+	After playing with enchantments, they just felt too strong for beta still, so some more adjustments have been made.
+	Sharpness 5 -> 1, Common -> Uncommon
+	Protection 4 -> 2, Common -> Uncommon
+	Smite 5 -> 1
+
+MangoPlus Patch 1.6 PreRelease Version!!!
+
+-Nuclear reactors should now work properly!
+-Fixed Discord RPC.
+-Fixed chat spam upon entering a world.
+-Fixed a bug where you werent able to shift click into electric furnaces.
+-Removed Petrock mod.
+-Changed mob drops to be correct for beta (no steak, mutton, chicken, ect).
+-Undead feathers (rotten flesh) can now be crafted since zombies no longer drop it.
+-Changed world gen to not spawn modern animals.
+-Removed granite, diorite, andesite, and other stone varients from world gen.
+-Limestone and marble now generate under ocean biomes only.
+-Removed sounds for squids.
+-Removed ambient squeaks from bats.
+-Planes now use up less fuel.
+-Starting items are no longer given to the player.
+-Furnace texture now has a proper stone top.
+-Combined multiple resourcepacks to reduce bloat.
+-Changed a few textures.
+-Removed XP drops from mobs.
+-Removed XP bar from hud.
+-Removed the ability to directly pickup xp.
+	In order to obtain XP for enchanting you must craft a tome of knowledge and turn on auto pickup. You can then sneak and use it to fill your XP, however you wont be able to see it.
+	Feedback is appreciated for the xp changes. It either works like this, or youll have the xp bar on your hud, and I felt that not having the xp bar was much better for the vibe of the pack.
+
+MangoPlus Patch 1.7
+
+-Added Mo' Creatures. More old models are in the process of being ported by the mod developer.
+-Added Nethercraft Classic.
+-Fixed Aether gloves rendering incorrectly.
+-Fixed other miscellaneous rendering bugs with certain armors.
+-Added Reload Audio Driver. Did your sound cut out? Press F3 + R to fix it.
+-Added more items to the list of repairables in the Aether alter.
+-Fixed Millenaire village generation.
+-Removed Immersive Engineering machines from JEI recipes.
+-Removed Quark pipes.
+-Changed Induction Smelter to use Hellfire dust rather than sand for smelting.
+-Nerfed BWM windmill power from 110 RF to 90 RF.
+-Removed long fall boots in favor of sentry boots.
+-Added cloud boots, crafted with sentry and agility boots.
+-Added discord button to main menu.
+-Added patch notes screen. Access it by clicking the version number in the top left of the main menu!
