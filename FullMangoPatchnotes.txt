@@ -184,7 +184,8 @@ MangoPlus Patch 1.7
 -Fixed Aether gloves rendering incorrectly.
 -Fixed other miscellaneous rendering bugs with certain armors.
 -Added Reload Audio Driver. Did your sound cut out? Press F3 + R to fix it.
--Added more items to the list of repairables in the Aether alter.
+-Reactor Heat Balancers work now as intended.
+-Added more items to the list of repairables in the Aether enchanter.
 -Fixed Millenaire village generation.
 -Removed Immersive Engineering machines from JEI recipes.
 -Removed Quark pipes.
@@ -192,5 +193,9 @@ MangoPlus Patch 1.7
 -Nerfed BWM windmill power from 110 RF to 90 RF.
 -Removed long fall boots in favor of sentry boots.
 -Added cloud boots, crafted with sentry and agility boots.
+-Slightly increased spawnrate for lead and nickel.
+-Added the ability to search for keybinds.
 -Added discord button to main menu.
 -Added patch notes screen. Access it by clicking the version number in the top left of the main menu!
+ (must have internet to view)
+-Added prompt to update pack when a new version is available.
