@@ -1,50 +1,27 @@
-MangoPlus Patch 1.7.1 [Youll proabably need to view in browser]
+MangoPlus Patch 1.7.2
 
--Added announcement section to main menu incase something important happens.
- (mostly for people that arent in the discord)
--Added 'View All Patches' button to patchnotes page.
--Moved discord button on patchnotes page.
--Chickens and pigs can now be bred with wheat, however they will not follow you with it.
--Undead feathers are now edible, but I wouldnt recommend eating them.
--Fixed issue where the player was unable to feed animals with food items.
--Fixed issue where food would be eaten when anything was interacted with.
--Fixed a bug that allowed you to eat when full health.
--Hunger effect replaced with poison.
--Spider eyes now stack to 64.
--Aether white apple stack size increased to 8.
--Removed Betahealth Updated mod, replaced with exsisting mods.
--Fixed some twilight forest texture issues.
--Cleaned up and removed unused config files.
--Fixed axes doing negative damage and subsequently healing mobs.
--Removed all mossy cobblestone recipes to make it a flex to have again.
--Removed EMC from mossy cobblestone to make it even more of a flex late game.
--Fixed fog.
--Removed void fog.
--Added farsight for render distance that is higher than the server.
--Fixed bug where player would not rotate in a minecart.
--Removed Simple Voice Chat.
--Changed default cloud settings.
--Fixed a wierd bug where drinking a milk bucket would give you an extra bucket.
--Changed skyroot bed item to use 2d sprite.
--Removed specific plank types from log crafting. e.g. spruce logs now craft into oak planks ect.
- (plank varients can still be obtained by other means)
--Renamed oak wood items to just wood and renamed a few other items.
--Retextured and renamed oxeye daisies and azure bluets.
--Unfixed bows rendering correctly in hand, to reflect beta properly.
--Quark bookshelf varients removed.
--Millenaire villages will now start spawning closer to spawn.
--Fixed bug that made the attack indicator still show occasionally.
--Replaced Reforged with Balkons WeaponMod Legacy. (guns are broken, will fix if I can)
--Sword block dammage lowered to 20% from 25%.
--Changed regular fence recipe to use only sticks again. (doesnt apply to other wood types)
--UU Matter now requires scrap.
--Enriched uranium is now harder to create.
--Reactor chambers now require lead.
--Oredictionary order fixed.
--Removed (hopefully) all references to IE in crafting.
--Changed textures for Energy Control mod.
--Cloud boot recipe fixed.
--Red beds are now default. You can obtain other colors by first bleaching the bed.
--JEI search bar moved to center.
--Changed soulforged steel to no longer require endstone.
--Portal gun recipes adjusted.
+-Compasses can now be bound to a location by right-clicking on a block.
+-Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
+-Compasses and clocks now show a gui in the top right.
+-Version overlay now displays the current MangoPlus patch.
+-Rebalanced many recipes including energy condenser, magnetic forcefield, philosophers stone, and dark matter armor and tools.
+-Changed magnetic force field recipe.
+-Added Surge to hopefully improve loading time.
+-Added ReAuth for convenience.
+-Fixed stone sword recipe.
+-Fixed issue where enities and items would desync after dying. Removed Farsight to fix.
+-Swiftwolfs Rending Gale does not work properly in this version, be warned, trying to fix.
+-Removed poor ores from world gen.
+-Lowered spawn chance of small oil springs.
+-Removed achievement announcements from appearing in chat by default.
+-Changed default difficulty to hard.
+-Lions no longer spawn on beaches.
+-Decluttered JEI by removing buildcraft facades, chisel blocks, and unused planes.
+-Changed glass pane recipe to give 4 instead of 16.
+-Iron bar recipe now gives 4 to match glass panes.
+-Disabled attack dammage and attack speed tags; you can still view them by holding shift.
+-Industrial Credits can now be crafted.
+-Death Compasses can now be crafted into Death Coins. They dont do anything but you could collect them I guess.
+-Added spooky carvable pumpkins for halloween.
+-Added a 5% chance for a spooky bloodmoon to occur.
+-Removed Herobrine...
