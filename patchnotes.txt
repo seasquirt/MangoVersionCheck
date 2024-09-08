@@ -4,7 +4,8 @@ MangoPlus Patch 1.7.2
 -Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
 -Compasses and clocks now show a gui in the top right.
 -Version overlay now displays the current MangoPlus patch.
--Rebalanced many recipes including energy condenser, magnetic forcefield, philosophers stone, and dark matter armor and tools.
+-Rebalanced many recipes including energy condenser, magnetic forcefield,
+ philosophers stone, and dark matter armor and tools.
 -Changed magnetic force field recipe.
 -Added Surge to hopefully improve loading time.
 -Added ReAuth for convenience.
