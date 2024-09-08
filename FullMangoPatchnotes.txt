@@ -270,6 +270,7 @@ MangoPlus Patch 1.7.2
 -Changed default difficulty to hard.
 -Lions no longer spawn on beaches.
 -Decluttered JEI by removing buildcraft facades, chisel blocks, and unused planes.
+-Added JEI support for bees and millenaire.
 -Changed glass pane recipe to give 4 instead of 16.
 -Iron bar recipe now gives 4 to match glass panes.
 -Disabled attack dammage and attack speed tags; you can still view them by holding shift.
