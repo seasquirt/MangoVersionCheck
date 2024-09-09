@@ -1,4 +1,4 @@
-MangoPlus Patch 1.7.2
+MangoPlus Patch 1.7.2/3
 
 -Compasses can now be bound to a location by right-clicking on a block.
 -Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
@@ -27,3 +27,4 @@ MangoPlus Patch 1.7.2
 -Added spooky carvable pumpkins for halloween.
 -Added a 5% chance for a spooky bloodmoon to occur.
 -Removed Herobrine...
+-Hotfixed some configs.
