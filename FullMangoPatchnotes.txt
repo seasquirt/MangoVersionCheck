@@ -251,7 +251,7 @@ MangoPlus Patch 1.7.1
 -Changed soulforged steel to no longer require endstone.
 -Portal gun recipes adjusted.
 
-MangoPlus Patch 1.7.2
+MangoPlus Patch 1.7.2/3
 
 -Compasses can now be bound to a location by right-clicking on a block.
 -Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
@@ -262,7 +262,7 @@ MangoPlus Patch 1.7.2
 -Added Surge to hopefully improve loading time.
 -Added ReAuth for convenience.
 -Fixed stone sword recipe.
--Fixed issue where enities and items would desync after dying. Removed Farsight to fix.
+-Fixed issue where entities and items would desync after dying. Removed Farsight to fix.
 -Swiftwolfs Rending Gale does not work properly in this version, be warned, trying to fix.
 -Removed poor ores from world gen.
 -Lowered spawn chance of small oil springs.
@@ -273,9 +273,9 @@ MangoPlus Patch 1.7.2
 -Added JEI support for bees and millenaire.
 -Changed glass pane recipe to give 4 instead of 16.
 -Iron bar recipe now gives 4 to match glass panes.
--Disabled attack dammage and attack speed tags; you can still view them by holding shift.
+-Disabled attack damage and attack speed tags; you can still view them by holding shift.
 -Industrial Credits can now be crafted.
 -Death Compasses can now be crafted into Death Coins. They dont do anything but you could collect them I guess.
--Added spooky carvable pumpkins for halloween.
+-Added spooky carvable pumpkins for Halloween.
 -Added a 5% chance for a spooky bloodmoon to occur.
 -Removed Herobrine...
