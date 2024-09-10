@@ -1,30 +1,7 @@
-MangoPlus Patch 1.7.2/3
+MangoPlus Patch 1.7.4
 
--Compasses can now be bound to a location by right-clicking on a block.
--Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
--Compasses and clocks now show a gui in the top right.
--Version overlay now displays the current MangoPlus patch.
--Rebalanced many recipes including energy condenser, magnetic forcefield,
- philosophers stone, and dark matter armor and tools.
--Changed magnetic force field recipe.
--Added Surge to hopefully improve loading time.
--Added ReAuth for convenience.
--Fixed stone sword recipe.
--Fixed issue where enities and items would desync after dying. Removed Farsight to fix.
--Swiftwolfs Rending Gale does not work properly in this version, be warned, trying to fix.
--Removed poor ores from world gen.
--Lowered spawn chance of small oil springs.
--Removed achievement announcements from appearing in chat by default.
--Changed default difficulty to hard.
--Lions no longer spawn on beaches.
--Decluttered JEI by removing buildcraft facades, chisel blocks, and unused planes.
--Added JEI support for bees and millenaire.
--Changed glass pane recipe to give 4 instead of 16.
--Iron bar recipe now gives 4 to match glass panes.
--Disabled attack dammage and attack speed tags; you can still view them by holding shift.
--Industrial Credits can now be crafted.
--Death Compasses can now be crafted into Death Coins. They dont do anything but you could collect them I guess.
--Added spooky carvable pumpkins for halloween.
--Added a 5% chance for a spooky bloodmoon to occur.
--Removed Herobrine...
--Hotfixed some configs.
+-Removed Surge, it was causing issues with crafttweaker.
+-Added Reactor Turbines Mod.
+-Fixed aqua creepers spawning when it wasnt raining.
+-Changed iron, gold, copper, tin, and silver to macerate into dust instead of crushed ore.
+-Fixed jungle door texture.
