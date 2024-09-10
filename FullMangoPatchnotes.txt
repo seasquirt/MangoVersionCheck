@@ -251,7 +251,7 @@ MangoPlus Patch 1.7.1
 -Changed soulforged steel to no longer require endstone.
 -Portal gun recipes adjusted.
 
-MangoPlus Patch 1.7.2/3
+MangoPlus Patch 1.7.2
 
 -Compasses can now be bound to a location by right-clicking on a block.
 -Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
@@ -279,3 +279,16 @@ MangoPlus Patch 1.7.2/3
 -Added spooky carvable pumpkins for Halloween.
 -Added a 5% chance for a spooky bloodmoon to occur.
 -Removed Herobrine...
+
+MangoPlus Patch 1.7.3
+
+-Diaabled Railcraft world gen.
+-Disabled other stone types again.
+
+MangoPlus Patch 1.7.4
+
+-Removed Surge, it was causing issues with crafttweaker.
+-Added Reactor Turbines Mod.
+-Fixed aqua creepers spawning when it wasnt raining.
+-Changed iron, gold, copper, tin, and silver to macerate into dust instead of crushed ore.
+-Fixed jungle door texture.
