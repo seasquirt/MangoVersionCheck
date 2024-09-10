@@ -5,3 +5,4 @@ MangoPlus Patch 1.7.4
 -Fixed aqua creepers spawning when it wasnt raining.
 -Changed iron, gold, copper, tin, and silver to macerate into dust instead of crushed ore.
 -Fixed jungle door texture.
+-Fixed all sound events.
