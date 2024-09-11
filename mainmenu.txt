@@ -1,1 +1,2 @@
-Server is being tested.
+Come test out the server!
+mangoplus.ddns.net
