@@ -1,8 +1,15 @@
-MangoPlus Patch 1.7.4
+MangoPlus Patch 1.7.5
 
--Removed Surge, it was causing issues with crafttweaker.
--Added Reactor Turbines Mod.
--Fixed aqua creepers spawning when it wasnt raining.
--Changed iron, gold, copper, tin, and silver to macerate into dust instead of crushed ore.
--Fixed jungle door texture.
--Fixed all sound events.
+-HV cables now require steel.
+-Removed ic2 items from baubles. (they werent even supposed to be baubles)
+-Enabled sleeping through bloodmoons.
+-Mobs that spawn durring bloodmoons will now vanish at dawn.
+-Adjusted mob spawning rates during bloodmoons.
+-Industrial Credits can now be crafted. (for real this time)
+-Removed Natures Compass. (was only there for testing)
+-Cloud boots recipe now ignores the damage on agility and sentry boots.
+-Hopefully fixed zombie pigmen loot tables in multiplayer.
+-Retextured Buildcraft blocks back to their classic textures.
+-Added controller support.
+-Nether ores now spawn in nether dirt.
+-Forge version updated.
