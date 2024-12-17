@@ -363,4 +363,5 @@ MangoPlus Patch 1.7.7
 -Lowered mob spawning slightly.
 -Lowered baby zombie spawn chance.
 -Fixed a culling bug that made blocks disappear on chunk borders.
+-Removed Potion Snowballs for multiplayer compatibility.
 -Updated forge version.
