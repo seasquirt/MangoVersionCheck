@@ -351,3 +351,16 @@ MangoPlus Patch 1.7.6
 -Removed Death Quotes.
 -Added a startup sound.
 -Removed Herobrine.
+
+MangoPlus Patch 1.7.7
+
+-Adjusted armor curve.
+-Removed Tooltip Tweaker
+-Different world presets are now available when pressing customize under the modern beta world type.
+ (all world types should be technically playable but some will be more difficult)
+-You can now see your Y coordinate without a compass in the F3 screen.
+-Turkeys no longer spawn.
+-Lowered mob spawning slightly.
+-Lowered baby zombie spawn chance.
+-Fixed a culling bug that made blocks disappear on chunk borders.
+-Updated forge version.
