@@ -1,41 +1,12 @@
-MangoPlus Patch 1.7.6
+MangoPlus Patch 1.7.7
 
--Added new potion effects and revamped brewing.
--Re-added most of the original achievements.
--Drinkable potions now stack up to 4.
--Added potion snowballs.
--Changed steel to only be made in a blast furnace.
--Soulforged steel now requires regular steel dust and soul dust (or just end slag).
--Fixed inaccurate tallgrass and biome blending colors.
--Animals bounce around again, just like in beta!
--Changed debug screen to better fit beta and declutter.
--Fixed custom window icon.
--Updated IC2 to fix a memory leak.
--Changed bloodmoon chance to 1%. (Halloween is long over)
--Adjusted hostile mob spawning.
--Changed defaults for The One Probe to be more intuitive.
--Switched to FermiumASM for better performance and mod compatibility.
--Fixed Rope (lead) recipe to be more consistent.
--You can now rename nametags without xp or an anvil using /nametag [name]
--Re-added fall damage to shallow water.
- (modified to take reduced damage instead of full fall damage in water)
--Items no longer combine in multiplayer.
--Projectiles now bounce off of slime blocks.
--Baby zombies burn.
--Third person camera is no longer blocked by non solid blocks like grass.
--Scrolling in menu is now smooth!
--Lots of performance tweaks.
--XP orbs are now invisible.
- (but you can still pick them up with the tome of knowledge)
--Crit particles will no longer appear. 
--Turkeys will now rarely spawn until next patch.
--Properly unified gears.
--Brass is replaced with bronze in all recipes.
--Bonemeal has been returned to its former glory.
--Changed bloodwood sapling recipe.
--You will now explode when eating a creeper oyster.
--Removed Ender Mail.
--Removed some unnecessary and redundant world gen mods.
--Removed Death Quotes.
--Added a startup sound.
--Removed Herobrine.
+-Adjusted armor curve.
+-Removed Tooltip Tweaker
+-Different world presets are now available when pressing customize under the modern beta world type.
+ (all world types should be technically playable but some will be more difficult)
+-You can now see your Y coordinate without a compass in the F3 screen.
+-Turkeys no longer spawn.
+-Lowered mob spawning slightly.
+-Lowered baby zombie spawn chance.
+-Fixed a culling bug that made blocks disappear on chunk borders.
+-Updated forge version.
