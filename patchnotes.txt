@@ -1,13 +1,10 @@
-MangoPlus Patch 1.7.7
+MangoPlus Patch 1.7.8
 
--Adjusted armor curve.
--Removed Tooltip Tweaker
--Different world presets are now available when pressing customize under the modern beta world type.
- (all world types should be technically playable but some will be more difficult)
--You can now see your Y coordinate without a compass in the F3 screen.
--Turkeys no longer spawn.
--Lowered mob spawning slightly.
--Lowered baby zombie spawn chance.
--Fixed a culling bug that made blocks disappear on chunk borders.
--Removed Potion Snowballs for multiplayer compatibility.
--Updated forge version.
+-Brought back some classic BTW textures and models.
+-Donuts now stack to 16 making it the second stackable food.
+-Fixed debug spam when loading into a world.
+-Rats can now spawn.
+-Lowered spawnrates of various Mo' creatures mobs.
+-Coral is 1 light level brighter.
+-Thermalexpansion factorizer recipes now hidden in JEI.
+-Gears arent unified anymore and I cant fix it so oh well I guess.
