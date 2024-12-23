@@ -363,5 +363,16 @@ MangoPlus Patch 1.7.7
 -Lowered mob spawning slightly.
 -Lowered baby zombie spawn chance.
 -Fixed a culling bug that made blocks disappear on chunk borders.
+
+MangoPlus Patch 1.7.8
+
+-Brought back some classic BTW textures and models.
+-Donuts now stack to 16 making it the second stackable food.
+-Fixed debug spam when loading into a world.
+-Rats can now spawn.
+-Lowered spawnrates of various Mo' creatures mobs.
+-Coral is 1 light level brighter.
+-Thermalexpansion factorizer recipes now hidden in JEI.
+-Gears arent unified anymore and I cant fix it so oh well I guess.
 -Removed Potion Snowballs for multiplayer compatibility.
 -Updated forge version.
