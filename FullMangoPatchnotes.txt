@@ -377,7 +377,7 @@ MangoPlus Patch 1.7.8
 -Thermalexpansion factorizer recipes now hidden in JEI.
 -Gears arent unified anymore and I cant fix it so oh well I guess.
 
-MangoPlus Patch 1.7.9
+MangoPlus Patch 1.7.9 [STILL UNRELEASED]
 
 Very big patch
 
