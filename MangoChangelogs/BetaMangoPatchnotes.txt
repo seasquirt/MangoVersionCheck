@@ -1,0 +1,126 @@
+MangoPlus Beta 1.7.9_01
+
+-Made mobs bouncier
+-Creeper strafing is back!
+-Fixed damage tilt
+-Removed sword blocking entirely
+-Removed buried treasure as it wasn't compatible with world gen
+-Removed 'increase mobs' mod. Redundant
+-Reduced porkchop drop rate for pigs
+-Fixed cooked porkchop drop for pigmen
+-Bird textures changed
+-Reduced all Mo'Creatures spawn rates
+-Default MangoPlus world gen no longer spawns new flowers
+-Changed Death Coin to Death Orb. Why? Well, idk it just looks nicer...
+-Under the hood performance changes (this is the beta testing part)
+-Fixed ProjectE! (This also includes SWRG)
+-Lily pads and melons no longer generate in the world
+-Added Kodaichi's original mobs. Custom Creepers, Brain Slimes and Spider Families mods
+-Removed the dismount tooltip
+-Rubber logs now craft into normal wood planks
+-Doubled entity render distance
+-Reverted invisible XP change, but ores no longer drop it
+-Replaced Alex skin with girl Steve.
+-Retextured husks as mummies
+-Fixed vanilla villager models and textures to make them into pigmen
+-Retextured ProjectRed pipes to fit Buildcraft and replaced the 32x textures
+
+MangoPlus Beta 1.7.9_02
+
+-Limited spawn rate of karate zombies
+-Limited amount of red creepers
+-Red creepers can now be sheared like normal ones can
+-Sword blocking reduced to 5% (bc its still on the battleaxe)
+-Added most fuels to combustion engine
+-Fixed some Balkon's recipes
+-Fully removed shield recipes
+-Replaced instant bone meal behavior with Growmeal. Crafted with bonemeal
+
+MangoPlus Beta 1.7.9_03
+
+-Fixed disabled mobs trying to spawn in other dimensions
+-Fixed nethercraft torch textures
+-Reverted peridot to emerald. It can be used in place of them in recipes
+-Reverted electrotine to nikolite
+-Fixed vanilla mob drops in multiplayer
+-Limited spawn rate of spider families
+
+MangoPlus Beta 1.7.9_04
+
+-Removed Railcraft gears entirely
+-Rebalanced power conversions
+     1 RF/FE = 4 EU = 10 MJ
+-Added 2 energy cells to store MJ with.
+ 1.5M EU (3,750,000 MJ) and 6M EU (15,000,000 MJ) storage respectively.
+-Removed iron electron tubes to prevent power loops
+-Removed ic2 flux generators to prevent power loops
+-Added recipes for MV, HV, and EV energy producers/consumers
+-Changed recipes for energy bridge and LV producer/consumer
+-Seed oil is now the forestry version when made with ANY seed in the fluid transposer
+-Moved buddy block, block dispenser, polished lapis, and detector from the soul forged anvil to the normal crafting table
+-Lapis has been added to nether ore gen
+
+MangoPlus Beta 1.7.9_05
+
+-Fixed cell recipes again
+-Fixed energy conversion
+-Overwritten all settings. (I had to sorry)
+-Guns, blowguns, and crossbows are no longer craftable (bc they dont work anyway)
+
+Note: try not to change your video settings too much, as some settings will cause the game to crash repeatedly. The safest ones  you can change are brightness, smooth lighting, render distance, and particle count.
+
+MangoPlus Beta 1.7.9_06
+
+-Thermal machines no longer have independent energy storage
+-Nerfed the first two levels of thermal machines
+-Hardened glass now required iridium dust
+-Fixed diamond being able to craft diamond ingots from only diamonds using nuggets
+-Increased energy bridge buffer to 5,000
+-Fixed Aether mob loottables to be consistent with their overworld counterparts
+-Fixed bug that caused boars to drop cooked porkchop instead of raw
+-Lowered twilight forest venison drop rate to match pigs
+-Fixed hammer of notch blocking instead of shooting
+-Fixed CPU overhead caused by improper checking of hashmaps
+-Fixed client desync when teleporting to unloaded chunks or changing dimensions
+-Fixed portals setting players on fire
+-Servers will no longer 'rubber band' players when lagging
+-Iridium ingots are now crafted in an assembly table
+-"Fixed" bug that created milk
+-Hardened glass now requires iridium dust instead of lead dust
+-Creepers strafe faster
+-Added Gendustry
+
+MangoPlus Beta 1.7.9_07
+
+Evil bytecode manipulation patch! OoOOo scary!
+
+-Fixed blueberry stacking
+-Cookies now stack to 16
+-Trivection augment removed
+-Removed food crating
+-Removed UU-Matter elytra recipe
+-PROPERLY fixed offhand flying cow milking
+-Added subtle void fog particles at Y 7 and below
+-Lowered spawn rate of rocket creeper and mother spider
+-Ender staff recipe changed
+-Added tips while loading into a world
+-Settings overwritten again for performance purposes
+
+MangoPlus Beta 1.7.9_08
+
+
+-"fell out of the water" death message changed to "fell into shallow water"
+-Removed hemp fiber recipe from ic2 hemp
+-Added orthographic camera!
+-Fixed mining laser causing ore explosions to crash the game.
+-Changed recipes for ender storage
+-Changed recipes for teleport pipes
+-Switched to new lighting engine
+-Lowered amount of void fog particles
+-Added new world type screen for pre-configured worlds
+-Updated world gen to new version
+-Updated Mo'creatures
+-Dynamos can now rotate in any direction
+-Updated dynamo texture
+-New loading screen!
+-Fixed mass fabricator crash

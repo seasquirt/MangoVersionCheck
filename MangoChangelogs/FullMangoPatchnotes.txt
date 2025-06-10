@@ -1,0 +1,473 @@
+MangoPlus Patch 1.0.1
+
+-Fixed certain mobs not spawning
+
+MangoPlus Patch 1.1
+
+-Added millenaire mod
+-Added more rail types
+-Fixed ore gen for peridot, ruby, and sapphire
+-Added ore gen to the nether. Iron and diamonds are intentionally not included in nether ore gen
+-Added chisel mod
+-Removed stoneium from new chunks
+-Halved the damage for all axes
+-Added treecapitator for all axes above iron tier
+-Made aqua creepers more rare
+
+MangoPlus Patch 1.1.1
+
+Sorry, youll have to redo your custom settings
+
+-Removed mace (and some other weapons)
+-Fixed aether axe damage not being balanced for classic combat
+-Fixed sounds for chests, zombie pigman, main menu music, and other stuff
+-Slightly buffed zombie pigman with 0.2 knockback resistence
+
+MangoPlus Patch 1.1.2
+
+-Fixed bwm hand crank
+-Fixed aether axes (again)
+-Nerfed blunderbuss damage
+-Zombies have a little higher chance to spawn with weapons (will revert when maces are re-added)
+-Increased bwm windmill power conversion to 2.0
+-Treecapitator will no longer cause extra tool damage per block
+-Patch 1.1.1 made butterflies sound like muscular men. Will not fix, it's funny
+
+MangoPlus Patch 1.2
+
+-Updated the Aether with 3 new content mods
+-Disabled jetpacks in the Aether bc the atmosphere is too thin
+	Real reason for change is because of how valuable the new loot is. The aether is the only place to get shields, effectively sprint, obtain stackable food, ect. 
+	This change will provide more value to moas, dungeon loot, ect. Late game items such as gravisuits will still work.
+-Ambrosium stack size increased to 64, making it the only (offically) stackable food item
+-White apples stack size increased to 4 (they dont give health but they do clear bad effects)
+-You can no longer obtain or place pink aerclouds
+-Undead Feathers are finally stackable!
+-Aqua creeper spawnrate reduced again
+-Increased bwm windmill power conversion to 110.0
+-Treecapitator will once again cause a little tool damage
+-Removed zanite axe from treecapitator tool list
+-Added inventory sorting mod
+-Added in game screenshot manager
+-Redpower logic sounds disabled. No more noisy timers!
+-Reduced file size bloat related to sounds
+
+MangoPlus Patch 1.3
+
+-Added Thermal Expansion!
+-Thermal changes:
+	Thermal machines are powered by MJ, not RF
+	Lead and nickel only generate in the nether
+	Platinum only generates in the end
+	Added some sulfur recipes for easier factory making
+	Removed gear diecast
+	Removed armors
+	Removed tools
+	Removed thermal energy storage and transport, n/a to MJ
+-Removed aether shield recipes, can now only be found in aether dungeons
+-Added Recipe Confict Fixer button
+A world backup has been made while thermal integration is tested
+
+MangoPlus Patch 1.4
+
+-Balanced energy coversion rates thoroughly
+	2MJ=20RF=5EU, FLUXGEN 5EU->15RF
+	Fluxgen is less efficient than a bridge bc its cheaper
+	Forestry machines now use MJ instead of RF
+-Added Railcraft. Main features include;
+	New rails, multiblock fluid tanks, chunk loaders, steel and more!
+-Added Energy Meters! No more guessing how much power you have
+-Added sword blocking
+-Unified all materials! No more duplicate stuff, nicer recipe gui, cleaner inventory
+-Added Inventory Tweaks to replace bogo sorter
+-Some gears now require iron. Does not apply to wood, stone, iron, gold, or diamond
+-Liquid glowstone no longer gives effects
+
+MangoPlus Patch 1.4.1
+
+Oops, everything was messed up!
+
+-Fixed ghost blocks
+-Fixed insta-mining
+-Fixed block lag that occurred specifically when looking down for no reason
+-Fixed a bug where using a pickaxe on pipes and wires made them dissapear but not break
+-Fixed nuclear reactor GUI texture. Stats still dont work in the gui but energy meters & computers could be used
+-Fixed Treecapitator for real this time
+-Made Railcraft steel the default
+-Added BetterWithMods to oredict
+-Downgraded Valkyrien Skies version for performance. Will definitely break some old stuff
+-Reverted linear knockback change back to chance
+-Removed Better Railroads. Redundant with Railcraft
+-Changed main menu to display the MangoPlus patch instead of the minecraft version
+-Added steel anvil as end-ish game recipe
+
+MangoPlus Patch 1.5
+
+-Armor has been completely reworked. See details below
+-"Nightmares" from older versions have been re-added. Mobs will spawn next to your bed and wake you up if you either sleep out in the open, or in an unlit area
+-Maces have been re-added. Gold mace damage increased, all others reduced. Some are better and some are worse than their sword counterparts.
+-Damage reduction from sword block increased from 10% to 25%
+-Added clay shingles
+-Added framed glass
+-Added more brick variants
+-Added trapdoors for all wood types
+-Added arms to armor stands
+-Added glass shards
+-Removed sprayer upgrade
+-Changed stair recipe to give 8 instead of 4
+-You can now dye item names and their enchantment glint
+-Added archaeologist rarely in new chunks. His hat will now give an extra fortune level!
+-Added 2 new mobs. They're rare, and only spawn under y=20
+-Haste and Resistance potions can now be brewed to replace higher tiers of efficiency and help with armor changes
+-Added Matrix enchanting
+-Enchantment changes:
+	Some enchantments have had their max level lowered to incentivize upgrades and/or tool specialization, such as drills, silk touch ore extraction, etc..
+	Efficiency 5 -> 3
+	Fortune 3 -> 2
+		Fortune 3 can be obtained with a drill upgrade, silk touch can also be effective in increasing ore yield
+	Power 5 -> 3
+		Different arrow and bow types can be used
+	Knockback 2 -> 1
+	Protection 4 -> 3
+		Other protection enchants are unchanged. Gives a real use them.
+	Infinity has been disabled due to how strong bows are in general
+-Armor changes:
+	Armor effectiveness is adjusted so that the more armor you have, the less every extra armor point adds to your total protection. 
+	Due to how meaninglessly complicated armor toughness is, it has been removed as a direct mechanic. 
+	Armor has been rebalanced.
+	Protection enchantments have been similarly nerfed to ~75% max. 
+	Instead of toughness acting directly on arbitrary armor damage reduction, an extra layer of calculations have been added, which greatly decreases any damage over 40 points according to your armor toughness.
+	Armor degrades like how it did in beta. Low durability decreases the attributes of that specific piece of armor, so a half-broken helmet will drop your armor less than a half-broken chestplate. 
+	This will incentivize the use of armor repair systems such as the aether enchanter.
+	Armor stat curves are linear.
+	Please note that all changes can be hot fixed at any time, and feedback (after testing in real gameplay) will be accepted.
+
+MangoPlus Patch 1.5.1
+
+-Added Portal Guns!
+-Aqua Creepers will now only spawn during a thunderstorm
+-More Enchantment changes:
+	After playing with enchantments, they just felt too strong for beta still, so some more adjustments have been made.
+	Sharpness 5 -> 1, Common -> Uncommon
+	Protection 4 -> 2, Common -> Uncommon
+	Smite 5 -> 1
+
+MangoPlus Patch 1.6 PreRelease Version!!!
+
+-Nuclear reactors should now work properly!
+-Fixed Discord RPC.
+-Fixed chat spam upon entering a world.
+-Fixed a bug where you werent able to shift click into electric furnaces.
+-Removed Petrock mod.
+-Changed mob drops to be correct for beta (no steak, mutton, chicken, ect).
+-Undead feathers (rotten flesh) can now be crafted since zombies no longer drop it.
+-Changed world gen to not spawn modern animals.
+-Removed granite, diorite, andesite, and other stone varients from world gen.
+-Limestone and marble now generate under ocean biomes only.
+-Removed sounds for squids.
+-Removed ambient squeaks from bats.
+-Planes now use up less fuel.
+-Starting items are no longer given to the player.
+-Furnace texture now has a proper stone top.
+-Combined multiple resourcepacks to reduce bloat.
+-Changed a few textures.
+-Removed XP drops from mobs.
+-Removed XP bar from hud.
+-Removed the ability to directly pickup xp.
+	In order to obtain XP for enchanting you must craft a tome of knowledge and turn on auto pickup. You can then sneak and use it to fill your XP, however you wont be able to see it.
+	Feedback is appreciated for the xp changes. It either works like this, or youll have the xp bar on your hud, and I felt that not having the xp bar was much better for the vibe of the pack.
+
+MangoPlus Patch 1.7
+
+-Added Mo' Creatures. More old models are in the process of being ported by the mod developer.
+-Added Nethercraft Classic.
+-Fixed Aether gloves rendering incorrectly.
+-Fixed other miscellaneous rendering bugs with certain armors.
+-Added Reload Audio Driver. Did your sound cut out? Press F3 + R to fix it.
+-Reactor Heat Balancers work now as intended.
+-Added more items to the list of repairables in the Aether enchanter.
+-Fixed Millenaire village generation.
+-Removed Immersive Engineering machines from JEI recipes.
+-Removed Quark pipes.
+-Changed Induction Smelter to use Hellfire dust rather than sand for smelting.
+-Nerfed BWM windmill power from 110 RF to 90 RF.
+-Removed long fall boots in favor of sentry boots.
+-Added cloud boots, crafted with sentry and agility boots.
+-Slightly increased spawnrate for lead and nickel.
+-Added the ability to search for keybinds.
+-Added discord button to main menu.
+-Added patch notes screen. Access it by clicking the version number in the top left of the main menu!
+ (must have internet to view)
+-Added prompt to update pack when a new version is available.
+
+MangoPlus Patch 1.7.1 [Biggest bugfix patch so far]
+
+-Added announcement section to main menu incase something important happens.
+ (mostly for people that arent in the discord)
+-Added 'View All Patches' button to patchnotes page.
+-Moved discord button on patchnotes page.
+-Chickens and pigs can now be bred with wheat, however they will not follow you with it.
+-Undead feathers are now edible, but I wouldnt recommend eating them.
+-Fixed issue where the player was unable to feed animals with food items.
+-Fixed issue where food would be eaten when anything was interacted with.
+-Fixed a bug that allowed you to eat when full health.
+-Hunger effect replaced with poison.
+-Spider eyes now stack to 64.
+-Aether white apple stack size increased to 8.
+-Removed Betahealth Updated mod, replaced with exsisting mods.
+-Fixed some twilight forest texture issues.
+-Cleaned up and removed unused config files.
+-Fixed axes doing negative damage and subsequently healing mobs.
+-Removed all mossy cobblestone recipes to make it a flex to have again.
+-Removed EMC from mossy cobblestone to make it even more of a flex late game.
+-Fixed fog.
+-Removed void fog.
+-Added farsight for render distance that is higher than the server.
+-Fixed bug where player would not rotate in a minecart.
+-Removed Simple Voice Chat.
+-Changed default cloud settings.
+-Fixed a wierd bug where drinking a milk bucket would give you an extra bucket.
+-Changed skyroot bed item to use 2d sprite.
+-Removed specific plank types from log crafting. e.g. spruce logs now craft into oak planks ect.
+ (plank varients can still be obtained by other means)
+-Renamed oak wood items to just wood and renamed a few other items.
+-Retextured and renamed oxeye daisies and azure bluets.
+-Unfixed bows rendering correctly in hand, to reflect beta properly.
+-Quark bookshelf varients removed.
+-Millenaire villages will now start spawning closer to spawn.
+-Fixed bug that made the attack indicator still show occasionally.
+-Replaced Reforged with Balkons WeaponMod Legacy. (guns are broken, will fix if I can)
+-Sword block dammage lowered to 20% from 25%.
+-Changed regular fence recipe to use only sticks again. (doesnt apply to other wood types)
+-UU Matter now requires scrap.
+-Enriched uranium is now harder to create.
+-Reactor chambers now require lead.
+-Oredictionary order fixed.
+-Removed (hopefully) all references to IE in crafting.
+-Changed textures for Energy Control mod.
+-Cloud boot recipe fixed.
+-Red beds are now default. You can obtain other colors by first bleaching the bed.
+-JEI search bar moved to center.
+-Changed soulforged steel to no longer require endstone.
+-Portal gun recipes adjusted.
+
+MangoPlus Patch 1.7.2
+
+-Compasses can now be bound to a location by right-clicking on a block.
+-Coordinates no longer show in the F3 menu. Youll need a compass. (open to feedback)
+-Compasses and clocks now show a gui in the top right.
+-Version overlay now displays the current MangoPlus patch.
+-Rebalanced many recipes including energy condenser, magnetic forcefield, philosophers stone, and dark matter armor and tools.
+-Changed magnetic force field recipe.
+-Added Surge to hopefully improve loading time.
+-Added ReAuth for convenience.
+-Fixed stone sword recipe.
+-Fixed issue where enities and items would desync after dying. Removed Farsight to fix.
+-Swiftwolfs Rending Gale does not work properly in this version, be warned, trying to fix.
+-Removed poor ores from world gen.
+-Lowered spawn chance of small oil springs.
+-Removed achievement announcements from appearing in chat by default.
+-Changed default difficulty to hard.
+-Lions no longer spawn on beaches.
+-Decluttered JEI by removing buildcraft facades, chisel blocks, and unused planes.
+-Added JEI support for bees and millenaire.
+-Changed glass pane recipe to give 4 instead of 16.
+-Iron bar recipe now gives 4 to match glass panes.
+-Disabled attack dammage and attack speed tags; you can still view them by holding shift.
+-Industrial Credits can now be crafted.
+-Death Compasses can now be crafted into Death Coins. They dont do anything but you could collect them I guess.
+-Added spooky carvable pumpkins for halloween.
+-Added a 5% chance for a spooky bloodmoon to occur.
+-Removed Herobrine...
+
+MangoPlus Patch 1.7.3
+
+-Disabled Railcraft world gen.
+-Disabled other stone types again.
+
+MangoPlus Patch 1.7.4
+
+-Removed Surge, it was causing issues with crafttweaker.
+-Added Reactor Turbines Mod.
+-Fixed aqua creepers spawning when it wasnt raining.
+-Changed iron, gold, copper, tin, and silver to macerate into dust instead of crushed ore.
+-Fixed jungle door texture.
+-Fixed all sound events.
+
+MangoPlus Patch 1.7.5
+
+-HV cables now require steel.
+-Removed ic2 items from baubles. (they werent even supposed to be baubles)
+-Enabled sleeping through bloodmoons.
+-Mobs that spawn durring bloodmoons will now vanish at dawn.
+-Adjusted mob spawning rates during bloodmoons.
+-Industrial Credits can now be crafted. (for real this time)
+-Removed Natures Compass. (was only there for testing)
+-Cloud boots recipe now ignores the damage on agility and sentry boots.
+-Hopefully fixed zombie pigmen loot tables in multiplayer.
+-Retextured Buildcraft blocks back to their classic textures.
+-Added controller support.
+-Nether ores now spawn in nether dirt.
+-Forge version updated.
+
+MangoPlus Patch 1.7.6
+
+-Added new potion effects and revamped brewing.
+-Re-added most of the original achievements.
+-Drinkable potions now stack up to 4.
+-Added potion snowballs.
+-Changed steel to only be made in a blast furnace.
+-Soulforged steel now requires regular steel dust and soul dust (or just end slag).
+-Fixed inaccurate tallgrass and biome blending colors.
+-Animals bounce around again, just like in beta!
+-Changed debug screen to better fit beta and declutter.
+-Fixed custom window icon.
+-Updated IC2 to fix a memory leak.
+-Changed bloodmoon chance to 1%. (Halloween is long over)
+-Adjusted hostile mob spawning.
+-Changed defaults for The One Probe to be more intuitive.
+-Switched to FermiumASM for better performance and mod compatibility.
+-Fixed Rope (lead) recipe to be more consistent.
+-You can now rename nametags without xp or an anvil using /nametag [name]
+-Re-added fall damage to shallow water.
+ (modified to take reduced damage instead of full fall damage in water)
+-Items no longer combine in multiplayer.
+-Projectiles now bounce off of slime blocks.
+-Baby zombies burn.
+-Third person camera is no longer blocked by non solid blocks like grass.
+-Scrolling in menu is now smooth!
+-Lots of performance tweaks.
+-XP orbs are now invisible.
+ (but you can still pick them up with the tome of knowledge)
+-Crit particles will no longer appear. 
+-Turkeys will now rarely spawn until next patch.
+-Properly unified gears.
+-Brass is replaced with bronze in all recipes.
+-Bonemeal has been returned to its former glory.
+-Changed bloodwood sapling recipe.
+-You will now explode when eating a creeper oyster.
+-Removed Ender Mail.
+-Removed some unnecessary and redundant world gen mods.
+-Removed Death Quotes.
+-Added a startup sound.
+-Removed Herobrine.
+
+MangoPlus Patch 1.7.7
+
+-Adjusted armor curve.
+-Removed Tooltip Tweaker
+-Different world presets are now available when pressing customize under the modern beta world type.
+ (all world types should be technically playable but some will be more difficult)
+-You can now see your Y coordinate without a compass in the F3 screen.
+-Turkeys no longer spawn.
+-Lowered mob spawning slightly.
+-Lowered baby zombie spawn chance.
+-Fixed a culling bug that made blocks disappear on chunk borders.
+-Removed Potion Snowballs for multiplayer compatibility.
+-Updated forge version.
+
+MangoPlus Patch 1.7.8
+
+-Brought back some classic BTW textures and models.
+-Donuts now stack to 16 making it the second stackable food.
+-Fixed debug spam when loading into a world.
+-Rats can now spawn.
+-Lowered spawnrates of various Mo' creatures mobs.
+-Coral is 1 light level brighter.
+-Thermalexpansion factorizer recipes now hidden in JEI.
+-Gears arent unified anymore and I cant fix it so oh well I guess.
+
+MangoPlus Patch 1.7.9
+
+Very big patch
+
+-Made mobs bouncier
+-Creeper strafing is back!
+-Fixed damage tilt
+-Removed sword blocking entirely
+-Removed buried treasure as it wasn't compatible with world gen
+-Removed 'increase mobs' mod. Redundant
+-Reduced porkchop drop rate for pigs
+-Fixed cooked porkchop drop for pigmen
+-Bird textures changed
+-Reduced all Mo'Creatures spawn rates
+-Default MangoPlus world gen no longer spawns new flowers
+-Changed Death Coin to Death Orb. Why? Well, idk it just looks nicer...
+-Under the hood performance changes
+-Fixed ProjectE! (This also includes SWRG)
+-Lily pads and melons no longer generate in the world
+-Added Kodaichi's original mobs. Custom Creepers, Brain Slimes and Spider Families mods
+-Removed the dismount tooltip
+-Rubber logs now craft into normal wood planks
+-Doubled entity render distance
+-Reverted invisible XP change, but ores no longer drop it
+-Replaced Alex skin with girl Steve.
+-Retextured husks as mummies
+-Fixed vanilla villager models and textures to make them into pigmen
+-Retextured ProjectRed pipes to fit Buildcraft and replaced the 32x textures
+-Limited spawn rate of karate zombies
+-Sword blocking reduced to 5% (bc its still on the battleaxe)
+-Added most fuels to combustion engine
+-Fixed some Balkon's recipes
+-Fully removed shield recipes
+-Replaced instant bone meal behavior with Growmeal.
+ Crafted with bone meal
+-Fixed nethercraft torch textures
+-Reverted peridot to emerald. It can be used in place of them in recipes
+-Reverted electrotine to nikolite
+-Fixed vanilla mob drops in multiplayer
+-Removed Railcraft gears entirely
+-Rebalanced power conversions
+ 	1 RF/FE = 4 EU = 10 MJ
+-Added 2 energy cells to store MJ with.
+ 1.5M EU (3,750,000 MJ) and 6M EU (15,000,000 MJ) storage respectively.
+-Removed iron electron tubes to prevent power loops
+-Removed ic2 flux generators to prevent power loops
+-Added recipes for MV, HV, and EV energy producers/consumers
+-Changed recipes for energy bridge and LV producer/consumer
+-Seed oil is now the forestry version when made with ANY seed in the fluid transposer
+-Moved buddy block, block dispenser, polished lapis, and detector from the soul forged anvil to the normal crafting table
+-Lapis has been added to nether ore gen
+-Thermal machines no longer have independent energy storage
+-Nerfed the first two levels of thermal machines
+-Hardened glass now required iridium dust
+-Fixed diamond being able to craft diamond ingots from only diamonds using nuggets
+-Increased energy bridge buffer to 5,000
+-Fixed Aether mob loottables to be consistent with their overworld counterparts
+-Fixed bug that caused boars to drop cooked porkchop instead of raw
+-Lowered twilight forest venison drop rate to match pigs
+-Fixed hammer of notch blocking instead of shooting
+-Fixed CPU overhead caused by improper checking of hashmaps
+-Fixed client desync when teleporting to unloaded chunks or changing dimensions
+-Fixed portals setting players on fire
+-Servers will no longer 'rubber band' players when lagging
+-Iridium ingots are now crafted in an assembly table
+-Hardened glass now requires iridium dust instead of lead dust
+-Added Gendustry
+-Fixed blueberry stacking
+-Cookies now stack to 16
+-Trivection augment removed
+-Removed food crating
+-Removed UU-Matter elytra recipe
+-Properly fixed offhand flying cow milking
+-Added subtle void fog particles at Y 7 and below
+-Ender staff recipe changed
+-Added tips while loading into a world
+-Settings overwritten for performance purposes
+-"fell out of the water" death message changed to "fell into shallow water"
+-Removed hemp fiber recipe from ic2 hemp
+-Added orthographic camera!
+-Fixed mining laser causing ore explosions to crash the game.
+-Changed recipes for ender storage
+-Changed recipes for teleport pipes
+-Switched to new lighting engine
+-Lowered amount of void fog particles
+-Added new world type screen for pre-configured worlds
+-Updated world gen to new version
+-Added world type screen
+-Updated Mo'creatures
+-Fixed crashes with IC2 classic and assembly table
+-Dynamos can now rotate in any direction
+-Updated dynamo texture
+-New loading screen!
+-Fixed mass fabricator crash

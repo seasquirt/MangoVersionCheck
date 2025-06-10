@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MangoPlus Patch Notes</title>
+  <style>
+    body {
+      font-family: 'CustomFont', sans-serif;
+      background: url('dirt64.png') repeat;
+      color: #e0d0d0;
+      margin: 0;
+      padding: 0;
+    }
+
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('MinecraftRegular.otf') format('opentype');
+    }
+
+    #header-bg {
+      background: url('bg_top.png') repeat-x;
+      height: 120px;
+      width: 100%;
+    }
+
+    #header {
+      max-width: 1080px;
+      margin: 0 auto;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    #logo {
+      height: 100px;
+    }
+
+    #header-buttons {
+      display: flex;
+      align-items: center;
+    }
+
+    #container {
+      max-width: 1080px;
+      margin: 0 auto 2rem auto;
+      padding: 0 1rem 1rem 1rem;
+      background: url('bg_main.png') repeat;
+      border-radius: 10px;
+      font-size: 1.05rem;
+    }
+
+    button {
+      background-color: #444;
+      color: #fff;
+      width: 80px;
+      height: 50px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 0;
+      cursor: pointer;
+      font-family: 'CustomFont', sans-serif;
+      font-size: 0.75rem;
+    }
+
+    button:hover {
+      background-color: #666;
+    }
+
+    .header {
+      font-size: 1.75em;
+      margin-top: 2rem;
+      font-weight: bold;
+      color: #ffc107;
+    }
+
+    .line {
+      margin-left: 1rem;
+    }
+
+    .expandable {
+      cursor: pointer;
+      user-select: none;
+      margin-left: 1rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .indented-section {
+      margin-left: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="header-bg">
+    <div id="header">
+      <img src="minecraft_title.png" alt="MangoPlus Logo" id="logo">
+      <div id="header-buttons">
+        <button onclick="loadFile('FullMangoPatchnotes.txt')">Release</button>
+        <button onclick="loadFile('BetaMangoPatchnotes.txt')">Beta</button>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <div id="changelog"></div>
+  </div>
+
+  <script>
+    async function loadFile(filename) {
+      const res = await fetch(filename);
+      const text = await res.text();
+      const lines = text.split('\n');
+
+      const container = document.getElementById('changelog');
+      container.innerHTML = '';
+      let currentHeader = null;
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.trim() === '') continue;
+
+        if (line.startsWith('MangoPlus')) {
+          const header = document.createElement('div');
+          header.className = 'header';
+          header.textContent = line;
+          container.appendChild(header);
+          currentHeader = header;
+          continue;
+        }
+
+        const indentLevel = line.search(/\S|$/) / 2;
+        const isBase = indentLevel === 0 && line.trim().startsWith('-');
+        const isIndented = indentLevel > 0;
+
+        if (isBase) {
+          let hasIndented = false;
+          for (let j = i + 1; j < lines.length; j++) {
+            const testLine = lines[j];
+            if (testLine.trim() === '') continue;
+            const testIndent = testLine.search(/\S|$/) / 2;
+            if (testIndent === 0) break;
+            if (testIndent > 0) {
+              hasIndented = true;
+              break;
+            }
+          }
+
+          if (hasIndented) {
+            const lineText = line.replace(/^-/, '▶');
+            const expandable = document.createElement('div');
+            expandable.className = 'expandable';
+            expandable.textContent = lineText.trim();
+
+            const subGroup = document.createElement('div');
+            subGroup.className = 'hidden indented-section';
+
+            expandable.addEventListener('click', () => {
+              subGroup.classList.toggle('hidden');
+              expandable.textContent = (subGroup.classList.contains('hidden') ? '▶' : '▼') + lineText.slice(1);
+            });
+
+            container.appendChild(expandable);
+            container.appendChild(subGroup);
+
+            let j = i + 1;
+            while (j < lines.length) {
+              const innerLine = lines[j];
+              const innerIndent = innerLine.search(/\S|$/) / 2;
+              if (innerIndent > 0) {
+                const lineDiv = document.createElement('div');
+                lineDiv.className = 'line';
+                lineDiv.style.marginLeft = `${innerIndent * 2}rem`;
+                lineDiv.textContent = innerLine.trim();
+                subGroup.appendChild(lineDiv);
+                j++;
+              } else break;
+            }
+            i = j - 1;
+          } else {
+            const lineDiv = document.createElement('div');
+            lineDiv.className = 'line';
+            lineDiv.textContent = line.trim();
+            container.appendChild(lineDiv);
+          }
+        } else if (!isIndented) {
+          const lineDiv = document.createElement('div');
+          lineDiv.className = 'line';
+          lineDiv.textContent = line.trim();
+          container.appendChild(lineDiv);
+        }
+      }
+    }
+
+    loadFile('FullMangoPatchnotes.txt');
+  </script>
+</body>
+</html>
