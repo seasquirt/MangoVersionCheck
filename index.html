@@ -75,6 +75,13 @@
       color: #ffc107;
     }
 
+    .subheader {
+      font-size: 1.25em;
+      font-weight: bold;
+      color: #ff9900;
+      margin: 1rem 0 0.5rem 0;
+    }
+
     .line {
       margin-left: 1rem;
     }
@@ -99,7 +106,7 @@
     <div id="header">
       <img src="minecraft_title.png" alt="MangoPlus Logo" id="logo">
       <div id="header-buttons">
-        <button onclick="loadFile('FullMangoPatchnotes.txt')">Release</button>
+        <button onclick="loadFile('FullMangoPatchnotes.txt')">Full</button>
         <button onclick="loadFile('BetaMangoPatchnotes.txt')">Beta</button>
       </div>
     </div>
@@ -120,19 +127,34 @@
 
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
-        if (line.trim() === '') continue;
+        const trimmed = line.trim();
+        if (trimmed === '/') {
+          container.appendChild(document.createElement('br'));
+          continue;
+        }
 
-        if (line.startsWith('MangoPlus')) {
+        const subheadMatch = trimmed.match(/^==+\s*(.*?)\s*==+$/);
+        if (subheadMatch) {
+          const sub = document.createElement('div');
+          sub.className = 'subheader';
+          sub.textContent = subheadMatch[1];
+          container.appendChild(sub);
+          continue;
+        }
+
+        if (trimmed === '') continue;
+
+        if (trimmed.startsWith('MangoPlus')) {
           const header = document.createElement('div');
           header.className = 'header';
-          header.textContent = line;
+          header.textContent = trimmed;
           container.appendChild(header);
           currentHeader = header;
           continue;
         }
 
         const indentLevel = line.search(/\S|$/) / 2;
-        const isBase = indentLevel === 0 && line.trim().startsWith('-');
+        const isBase = indentLevel === 0 && trimmed.startsWith('-');
         const isIndented = indentLevel > 0;
 
         if (isBase) {
@@ -149,7 +171,7 @@
           }
 
           if (hasIndented) {
-            const lineText = line.replace(/^-/, '▶');
+            const lineText = trimmed.replace(/^-/, '▶');
             const expandable = document.createElement('div');
             expandable.className = 'expandable';
             expandable.textContent = lineText.trim();
@@ -182,13 +204,13 @@
           } else {
             const lineDiv = document.createElement('div');
             lineDiv.className = 'line';
-            lineDiv.textContent = line.trim();
+            lineDiv.textContent = trimmed;
             container.appendChild(lineDiv);
           }
         } else if (!isIndented) {
           const lineDiv = document.createElement('div');
           lineDiv.className = 'line';
-          lineDiv.textContent = line.trim();
+          lineDiv.textContent = trimmed;
           container.appendChild(lineDiv);
         }
       }
