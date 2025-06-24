@@ -3,7 +3,7 @@ MangoPlus Patch 1.7.9
 -Made mobs bouncier
 -Creeper strafing is back!
 -Fixed damage tilt
--Removed sword blocking entirely for ever weapon but the battleaxe
+-Removed sword blocking entirely for every weapon except the battleaxe
 	reduced to 5% blocking
 -Removed buried treasure as it wasn't compatible with world gen
 -Removed 'increase mobs' mod. Redundant
