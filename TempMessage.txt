@@ -1,1 +1,5 @@
-This patch makes big changes \nto kinesis pipes. You may need \nto replace your pipes that power \nthermal machines. Be sure to back \nup your world before playing!
+This patch makes big changes
+to kinesis pipes. You may need 
+to replace your pipes that power 
+thermal machines. Be sure to back 
+up your world before playing!
