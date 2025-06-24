@@ -1,135 +1,143 @@
 MangoPlus Patch 1.7.9
 
+== GAMEPLAY CHANGES ==
 -Made mobs bouncier
 -Creeper strafing is back!
--Fixed damage tilt
 -Removed sword blocking entirely for every weapon except the battleaxe
-	reduced to 5% blocking
+    reduced to 5% blocking
 -Removed buried treasure as it wasn't compatible with world gen
--Removed 'increase mobs' mod. Redundant
 -Reduced porkchop drop rate for pigs
--Fixed cooked porkchop drop for pigmen
--Bird textures changed
 -Reduced all Mo'Creatures spawn rates
 -Default MangoPlus world gen no longer spawns new flowers
--Changed Death Coin to Death Orb. Why? Well, idk it just looks nicer...
--Huge under the hood performance changes
--Fixed ProjectE! (This also includes SWRG)
 -Lily pads and melons no longer generate in the world
 -Added Kodaichi's original mobs. Custom Creepers, Brain Slimes and Spider Families mods
+-Limited spawn rate of karate zombies
+-Added most fuels to combustion engine
+-Replaced instant bone meal behavior with Growmeal. Crafted with bonemeal
+-Lapis has been added to nether ore gen
+-Thermal machines no longer have independent energy storage
+-Nerfed the first two levels of thermal machines
+-Lowered twilight forest venison drop rate to match pigs
+-Added Gendustry
+-Cookies now stack to 16
+-Trivection augment removed
+-Removed fragile liquid shards
+-Added new world type screen for pre-configured worlds
+-Dynamos can now rotate in any direction
+-Buildcraft power pipes (RF and MJ) now enforce the listed flowrate
+-Added 2 new Buildcraft engines to convert between MJ and RF if needed
+-Reworked XP/Essence of Knowledge system.
+    Reverted invisible XP change
+    You can now drink Bottles O' Enchanting, and each one will give you 5 levels.
+    Bottles O' Enchanting are obtained by breaking mob spawners. Drop rates are:
+    1 bottle - 28%, 2 bottles - 44%, 3 bottles - 28%
+-Water wheels are no longer gated behind wind power
+-Dynamos now natively work with RF pipes
+-TreeCapitator is now limited to 128 blocks at a time
+-Matrix enchanting has been disabled for now due to it bypassing enchantment level caps
+-Removed chute
+-Removed enderwatcher
+-Magma blocks now spawn in the nether in base world types
+-Pink aerclouds now drop cold aerclouds when broken
+-Sticky resin is no longer considered a slimeball
+-Added 2 energy cells to store RF with.
+    1.5M EU equivalent and 6M EU equivalent storage respectively.
+-Removed iron electron tubes to prevent power loops
+-Removed ic2 flux generators to prevent power loops
+-Switched all MJ stuff to RF stuff
+    Most of your pipes going to thermal machines are different now
+    You'll have to replace them (sorry)
+-ONE BLOCK POWER CONVERSION!!!!
+    Legacy energy converters will be left in until patch 1.7.10
+    You have until next patch to replace your energy converter setup
+    The new power converter can be crafted from scratch or with your existing parts
+/
+== VISUAL CHANGES ==
+-Bird textures changed
+-Changed Death Coin to Death Orb. Why? Well, idk it just looks nicer...
 -Removed the dismount tooltip
--Rubber logs now craft into normal wood planks
 -Doubled entity render distance
 -Replaced Alex skin with girl Steve.
 -Retextured husks as mummies
 -Fixed vanilla villager models and textures to make them into pigmen
-	These guys aren't implemented yet but hopefully at some point they will be
+    These guys aren't implemented yet but hopefully at some point they will be
 -Retextured ProjectRed pipes to fit Buildcraft and replaced the 32x textures
--Limited spawn rate of karate zombies
--Added most fuels to combustion engine
--Fixed some Balkon's recipes
--Fully removed shield recipes
--Replaced instant bone meal behavior with Growmeal. Crafted with bonemeal
 -Fixed nethercraft torch textures when placed on walls
--Reverted peridot to emerald. It can be used in place of them in recipes
--Reverted electrotine to nikolite
--Fixed vanilla mob drops in multiplayer
--Removed Railcraft gears entirely
--Added 2 energy cells to store RF with.
- 1.5M EU equivalent and 6M EU equivalent storage respectively.
--Removed iron electron tubes to prevent power loops
--Removed ic2 flux generators to prevent power loops
--Seed oil is now the forestry version when made with ANY seed in the fluid transposer
--Moved buddy block, block dispenser, polished lapis, and detector from the soul forged anvil to the normal crafting table
--Lapis has been added to nether ore gen
--Thermal machines no longer have independent energy storage
--Nerfed the first two levels of thermal machines
--Fixed diamond being able to craft diamond ingots from only diamonds using nuggets
--Fixed Aether mob loottables to be consistent with their overworld counterparts
--Fixed bug that caused boars to drop cooked porkchop instead of raw
--Lowered twilight forest venison drop rate to match pigs
--Fixed hammer of notch blocking instead of shooting
--Fixed CPU overhead caused by improper checking of hashmaps
--Fixed client desync when teleporting to unloaded chunks or changing dimensions
--Fixed portals setting players on fire
--Servers will no longer 'rubber band' players when lagging
--Iridium ingots are now crafted in an assembly table
--Fixed bug that created milk
-	no, I will not elaborate
--Hardened glass now requires iridium dust instead of lead dust
--Added Gendustry
--Fixed blueberry stacking
--Cookies now stack to 16
--Trivection augment removed
--Removed food crating
--Removed UU-Matter elytra recipe
 -Added subtle void fog particles at Y 7 and below
--Ender staff recipe changed
 -Added tips while loading into a world
 -"fell out of the water" death message changed to "fell into shallow water"
--Removed hemp fiber recipe from ic2 hemp
 -Added orthographic camera!
--Fixed mining laser causing ore explosions to crash the game.
--Changed recipes for ender storage
--Changed recipes for teleport pipes
--Lowered amount of void fog particles
--Added new world type screen for pre-configured worlds
--Updated world gen to new version
--Updated Mo'creatures
--Dynamos can now rotate in any direction
 -Updated dynamo texture
 -New loading screen!
+-Patchnotes button now opens the changelog website instead of the in game page
+-EMC is no longer shown on item tooltips
+-Dynamos are now visible in JEI
+-Reverted electrotine to nikolite
+/
+== RECIPE CHANGES ==
+-Rubber logs now craft into normal wood planks
+-Fully removed shield recipes
+-Reverted peridot to emerald. It can be used in place of them in recipes
+-Removed Railcraft gears entirely
+-Seed oil is now the forestry version when made with ANY seed in the fluid transposer
+-Moved buddy block, block dispenser, polished lapis, and detector from the soul forged anvil to the normal crafting table
+-Iridium ingots are now crafted in an assembly table
+-Hardened glass now requires iridium dust instead of lead dust
+-Ender staff recipe changed
+-Removed hemp fiber recipe from ic2 hemp
+-Changed recipes for ender storage
+-Changed recipes for teleport pipes
 -Changed a ton of ProjectE recipes to parody the original Mangopack
 -Added recipe for raw firestone
 -Changed recipe for thermal machine frame
 -Soulforged steel no longer requires an iron ingot and coal dust when made with soul dust
--Switched all MJ stuff to RF stuff
-	Most of your pipes going to thermal machines are different now
-	You'll have to replace them (sorry)
--Buildcraft power pipes (RF and MJ) now enforce the listed flowrate
--Added 2 new Buildcraft engines to convert between MJ and RF if needed
--ONE BLOCK POWER CONVERSION!!!!
-	Legacy energy converters will be left in until patch 1.7.10
-	You have until next patch to replace your energy converter setup
-	The new power converter can be crafted from scratch or with your existing parts
--Replaced discord rich presence mod to fix lag issue in LAN
--Reworked XP/Essence of Knowledge system.
-	Reverted invisible XP change
-	You can now drink Bottles O' Enchanting, and each one will give you 5 levels.
-	Bottles O' Enchanting are obtained by breaking mob spawners. Drop rates are
-	1 bottle - 28%, 2 bottles - 44%, 3 bottles - 28%
--Minor crafttweaker script optimizations
--Most custom assets now load from resources instead of a resource pack
 -Hopper recipe changed
--Water wheels are no longer gated behind wind power
--Dynamos are now visible in JEI
--Dynamos now natively work with RF pipes
 -Dynamo recipe changed
--TreeCapitator is now limited to 128 blocks at a time
 -Beds now require BTW wood siding
 -Carpets are now crafted with a saw and drop fleece when broken
--Removed fragile liquid shards
--Added Modern Beta Forge Release Plus
--Railcraft recipes now function properly
--Reverted Wooden Diamond Pipes back to Emerald Pipes
--Matrix enchanting has been disabled for now due to it bypassing enchantment level caps
--Removed chute
--Removed enderwatcher
--Patchnotes button now opens the changelog website instead of the in game page
 -Ground glass is now made in the millstone
 -Removed useless shaft recipe
 -Light block and redstone lamp recipes changed
 -Updated glass pane recipes for quicksoil, framed, and gleaming glass
--Fixed splash text showing up in window title while loading
--Magma blocks now spawn in the nether in base world types
--Pink aerclouds now drop cold aerclouds when broken
--Removed pink aercloud from item blacklist
-	Not retroactive
--EMC is no longer shown on item tooltips
--Sticky resin is no longer considered a slimeball
--Fixed main menu layout changing depending on screen resolution
+-Reverted Wooden Diamond Pipes back to Emerald Pipes
+-Removed food crating
+-Removed UU-Matter elytra recipe
+/
+== TECHNICAL CHANGES ==
+-Removed 'increase mobs' mod. Redundant
+-Huge under the hood performance changes
+-Fixed CPU overhead caused by improper checking of hashmaps
+-Servers will no longer 'rubber band' players when lagging
+-Updated world gen to new version
+-Updated Mo'creatures
+-Replaced discord rich presence mod to fix lag issue in LAN
+-Minor crafttweaker script optimizations
+-Most custom assets now load from resources instead of a resource pack
+-Added Modern Beta Forge Release Plus
 -Settings have been reset for performance purposes
-
+-Removed pink aercloud from item blacklist
+    Not retroactive
+/
+== BUG FIXES ==
+-Fixed damage tilt
+-Fixed cooked porkchop drop for pigmen
+-Fixed ProjectE! (This also includes SWRG)
+-Fixed some Balkon's recipes
+-Fixed vanilla mob drops in multiplayer
+-Fixed diamond being able to craft diamond ingots from only diamonds using nuggets
+-Fixed Aether mob loottables to be consistent with their overworld counterparts
+-Fixed bug that caused boars to drop cooked porkchop instead of raw
+-Fixed hammer of notch blocking instead of shooting
+-Fixed client desync when teleporting to unloaded chunks or changing dimensions
+-Fixed portals setting players on fire
+-Fixed bug that created milk
+    no, I will not elaborate
+-Fixed blueberry stacking
+-Fixed mining laser causing ore explosions to crash the game.
+-Fixed splash text showing up in window title while loading
+-Fixed main menu layout changing depending on screen resolution
+-Fixed nethercraft torch textures when placed on walls
+-Railcraft recipes now function properly
 
 MangoPlus Patch 1.7.8
 
