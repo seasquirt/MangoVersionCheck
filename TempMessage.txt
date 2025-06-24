@@ -1,0 +1,1 @@
+This patch makes big changes \nto kinesis pipes. You may need \nto replace your pipes that power \nthermal machines. Be sure to back \nup your world before playing!
